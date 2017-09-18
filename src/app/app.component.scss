@@ -1,0 +1,43 @@
+#HRNMenue {
+    width: 100%;
+    height: 3.90625vw;
+    background-color: #010101;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    z-index: 5000;
+    transition: all .3s;
+}
+.HRNLogo {
+    position: absolute;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.HRNLogo {
+    width: 12.5vw;
+    top: 0;
+}
+
+#HRNMenueContainer {
+    position: relative;
+}
+
+@media (max-width:1920px) {
+
+.HRNLogo {
+    width: 240px;
+       top: 12px;
+    left: 54px;
+}
+#HRNMenue {
+    height: 75px;
+}
+}@media (max-width:1000px) {
+    .HRNLogo {
+    width: 200px;
+   top: 16px;;
+}
+}
+
